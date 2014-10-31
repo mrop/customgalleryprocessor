@@ -1,3 +1,4 @@
+<%@ include file="/WEB-INF/jsp/include/imports.jsp" %>
 <%--
   Copyright 2014 Hippo B.V. (http://www.onehippo.com)
 
@@ -14,18 +15,9 @@
   limitations under the License.
   --%>
 
-<!doctype html>
-<%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
-<%@ page isErrorPage="true" %>
-<% response.setStatus(404); %>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <title>404 error</title>
-</head>
-<body>
-<h1>Page not found!!!</h1>
-<p>The page you requested was not found in this site.</p>
-</body>
-</html>
+<hst:setBundle basename="essentials.global"/>
+<hr></hr>
+<div class="text-center">
+  <sub><fmt:message key="footer.text"/></sub>
+</div>
+<hst:include ref="container"/>
