@@ -28,7 +28,8 @@
         <fmt:formatDate value="${item.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
       </p>
     </c:if>
-
+    <hst:link hippobean="${item.image.square}" var="square"/>
+    <img src="${square}" width="200" height="200"/>
     <p><c:out value="${item.introduction}"/></p>
   </article>
 </c:forEach>

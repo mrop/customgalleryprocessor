@@ -367,7 +367,7 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -502,6 +502,96 @@
             <sv:value>The gastropoda news</sv:value>
           </sv:property>
         </sv:node>
+        <sv:node sv:name="the-gastropoda-news">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f9f47ce6-f7df-4aac-905a-144dce0feb75</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value>OBO</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:27:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value>AMS</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>The gastropoda news</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/the-gastropoda-news/the-gastropoda-news</sv:value>
+            <sv:value>news/2014/10/the-gastropoda-news</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T12:50:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:14:47.505+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>e37e1cc2-6813-4e99-b2b7-e0e521196ec0</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3c740fcf-8ec5-4f00-a713-ff96caa645c8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
       </sv:node>
       <sv:node sv:name="default-hippo">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -534,7 +624,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
-            <sv:value/>
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
             <sv:value/>
@@ -543,7 +633,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
-            <sv:value>Default Hippo Behavior</sv:value>
+            <sv:value>Default Hippo Behavior Landscape</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -563,7 +653,7 @@
             <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:27.042+01:00</sv:value>
+            <sv:value>2014-10-31T15:14:07.984+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -584,40 +674,10 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sagittis risus, eget pretium velit egestas et. 
-&lt;img align="right" src="landscape.jpg/{_document}/customgalleryprocessor:portrait" /&gt;Curabitur accumsan commodo lorem, eget sollicitudin lectus eleifend eu. Nullam in odio in lacus commodo mollis a ut 
-&lt;img align="left" src="landscape.jpg/{_document}/customgalleryprocessor:square" /&gt;arcu. Aenean at dolor et ante congue fermentum sit amet a nunc. Morbi ultricies, libero vel lacinia feugiat, lectus quam volutpat felis, id tempor urna elit sit amet augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non erat ut magna tempor cursus ac sit amet libero. Vivamus a urna dolor. Vestibulum sagittis velit justo, non bibendum lectus imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula id velit auctor placerat vel quis lorem. Ut pulvinar ligula nec ligula iaculis vulputate. Vivamus suscipit quam non tortor consequat hendrerit. Aliquam magna nulla, tempor in porttitor et, tempus et eros.&lt;/p&gt; 
-&lt;p&gt;Curabitur commodo hendrerit cursus. Nulla eu diam vitae elit laoreet rutrum eu sit amet ligula. Sed enim purus, consequat non odio ut, sagittis sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consectetur orci diam, non gravida dolor consectetur ut. Aliquam pharetra velit nec odio tristique, non aliquet risus egestas.&lt;/p&gt; 
-&lt;p&gt;&lt;img src="portrait.png/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;Nulla elit nisl, posuere sit amet justo a, vestibulum molestie ex. Nunc volutpat orci diam, in molestie turpis volutpat nec. 
-&lt;img align="right" src="portrait.png/{_document}/customgalleryprocessor:portrait" /&gt;Aliquam pellentesque justo sed varius aliquam. Curabitur iaculis laoreet feugiat. Proin ornare venenatis arcu. Suspendisse aliquet tellus nec arcu dignissim, a vehicula eros placerat. Maecenas accumsan, ante eu commodo tincidunt, urna ligula rhoncus libero, vel blandit orci magna id dolor.&lt;/p&gt; 
-&lt;p&gt;&lt;img align="left" src="portrait.png/{_document}/customgalleryprocessor:square" /&gt;Maecenas interdum, ex eget tincidunt pellentesque, nisi tellus egestas leo, a hendrerit tortor lectus et metus. Mauris sit amet neque ut ligula bibendum auctor quis et nisl. In lacinia mattis nisi at imperdiet. Suspendisse varius sodales nunc tempus placerat. Praesent ac nibh odio. In interdum cursus nisl, ac pellentesque ante dapibus in. Vestibulum suscipit risus id tristique sagittis. Maecenas dignissim dui odio, sit amet imperdiet nulla euismod at. Ut a enim ac risus blandit malesuada. Sed sit amet dignissim lorem, in finibus lacus. In hac habitasse platea dictumst. Duis non bibendum ligula, et consequat tellus.&lt;/p&gt; 
-&lt;p&gt;Nulla ac nunc sit amet massa placerat consequat. Sed faucibus ante sapien, id commodo massa euismod vitae. Quisque tincidunt lectus id ipsum aliquam, sit amet tincidunt nisi auctor. Donec tempus erat nec ex cursus consectetur at non dolor. Praesent a sapien est. Fusce vestibulum erat a arcu aliquet suscipit. Praesent faucibus ante velit, sed blandit justo bibendum at. Sed vel dignissim eros. Curabitur quis risus eget felis finibus sodales nec sed nisl. Quisque facilisis, massa id facilisis lacinia, risus nunc tristique tellus, quis dapibus libero eros vel mauris. In maximus blandit est eget maximus.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
-            <sv:node sv:name="landscape.jpg_1">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>834c44fc-ef64-4214-b4cf-f8f5b3b8c48e</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
-            <sv:node sv:name="portrait.png">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>a2e752cc-be24-4f0b-8c8f-b9b81796e77d</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
           </sv:node>
           <sv:node sv:name="customgalleryprocessor:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -663,7 +723,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
-            <sv:value/>
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
             <sv:value/>
@@ -672,7 +732,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
-            <sv:value>Default Hippo Behavior</sv:value>
+            <sv:value>Default Hippo Behavior Landscape</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -693,7 +753,7 @@
             <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:41.771+01:00</sv:value>
+            <sv:value>2014-10-31T15:15:33.819+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -714,40 +774,10 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sagittis risus, eget pretium velit egestas et. 
-&lt;img align="right" src="landscape.jpg/{_document}/customgalleryprocessor:portrait" /&gt;Curabitur accumsan commodo lorem, eget sollicitudin lectus eleifend eu. Nullam in odio in lacus commodo mollis a ut 
-&lt;img align="left" src="landscape.jpg/{_document}/customgalleryprocessor:square" /&gt;arcu. Aenean at dolor et ante congue fermentum sit amet a nunc. Morbi ultricies, libero vel lacinia feugiat, lectus quam volutpat felis, id tempor urna elit sit amet augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non erat ut magna tempor cursus ac sit amet libero. Vivamus a urna dolor. Vestibulum sagittis velit justo, non bibendum lectus imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula id velit auctor placerat vel quis lorem. Ut pulvinar ligula nec ligula iaculis vulputate. Vivamus suscipit quam non tortor consequat hendrerit. Aliquam magna nulla, tempor in porttitor et, tempus et eros.&lt;/p&gt; 
-&lt;p&gt;Curabitur commodo hendrerit cursus. Nulla eu diam vitae elit laoreet rutrum eu sit amet ligula. Sed enim purus, consequat non odio ut, sagittis sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consectetur orci diam, non gravida dolor consectetur ut. Aliquam pharetra velit nec odio tristique, non aliquet risus egestas.&lt;/p&gt; 
-&lt;p&gt;&lt;img src="portrait.png/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;Nulla elit nisl, posuere sit amet justo a, vestibulum molestie ex. Nunc volutpat orci diam, in molestie turpis volutpat nec. 
-&lt;img align="right" src="portrait.png/{_document}/customgalleryprocessor:portrait" /&gt;Aliquam pellentesque justo sed varius aliquam. Curabitur iaculis laoreet feugiat. Proin ornare venenatis arcu. Suspendisse aliquet tellus nec arcu dignissim, a vehicula eros placerat. Maecenas accumsan, ante eu commodo tincidunt, urna ligula rhoncus libero, vel blandit orci magna id dolor.&lt;/p&gt; 
-&lt;p&gt;&lt;img align="left" src="portrait.png/{_document}/customgalleryprocessor:square" /&gt;Maecenas interdum, ex eget tincidunt pellentesque, nisi tellus egestas leo, a hendrerit tortor lectus et metus. Mauris sit amet neque ut ligula bibendum auctor quis et nisl. In lacinia mattis nisi at imperdiet. Suspendisse varius sodales nunc tempus placerat. Praesent ac nibh odio. In interdum cursus nisl, ac pellentesque ante dapibus in. Vestibulum suscipit risus id tristique sagittis. Maecenas dignissim dui odio, sit amet imperdiet nulla euismod at. Ut a enim ac risus blandit malesuada. Sed sit amet dignissim lorem, in finibus lacus. In hac habitasse platea dictumst. Duis non bibendum ligula, et consequat tellus.&lt;/p&gt; 
-&lt;p&gt;Nulla ac nunc sit amet massa placerat consequat. Sed faucibus ante sapien, id commodo massa euismod vitae. Quisque tincidunt lectus id ipsum aliquam, sit amet tincidunt nisi auctor. Donec tempus erat nec ex cursus consectetur at non dolor. Praesent a sapien est. Fusce vestibulum erat a arcu aliquet suscipit. Praesent faucibus ante velit, sed blandit justo bibendum at. Sed vel dignissim eros. Curabitur quis risus eget felis finibus sodales nec sed nisl. Quisque facilisis, massa id facilisis lacinia, risus nunc tristique tellus, quis dapibus libero eros vel mauris. In maximus blandit est eget maximus.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
-            <sv:node sv:name="landscape.jpg_1">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>834c44fc-ef64-4214-b4cf-f8f5b3b8c48e</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
-            <sv:node sv:name="portrait.png">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>a2e752cc-be24-4f0b-8c8f-b9b81796e77d</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
           </sv:node>
           <sv:node sv:name="customgalleryprocessor:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -781,7 +811,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
-            <sv:value/>
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
             <sv:value/>
@@ -790,7 +820,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
-            <sv:value>Default Hippo Behavior</sv:value>
+            <sv:value>Default Hippo Behavior Landscape</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -811,13 +841,13 @@
             <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:41.771+01:00</sv:value>
+            <sv:value>2014-10-31T15:15:33.819+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:44.050+01:00</sv:value>
+            <sv:value>2014-10-31T15:15:43.688+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>7bfe8339-6116-40bb-bc64-b79f3482b370</sv:value>
@@ -835,40 +865,10 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sagittis risus, eget pretium velit egestas et. 
-&lt;img align="right" src="landscape.jpg/{_document}/customgalleryprocessor:portrait" /&gt;Curabitur accumsan commodo lorem, eget sollicitudin lectus eleifend eu. Nullam in odio in lacus commodo mollis a ut 
-&lt;img align="left" src="landscape.jpg/{_document}/customgalleryprocessor:square" /&gt;arcu. Aenean at dolor et ante congue fermentum sit amet a nunc. Morbi ultricies, libero vel lacinia feugiat, lectus quam volutpat felis, id tempor urna elit sit amet augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non erat ut magna tempor cursus ac sit amet libero. Vivamus a urna dolor. Vestibulum sagittis velit justo, non bibendum lectus imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula id velit auctor placerat vel quis lorem. Ut pulvinar ligula nec ligula iaculis vulputate. Vivamus suscipit quam non tortor consequat hendrerit. Aliquam magna nulla, tempor in porttitor et, tempus et eros.&lt;/p&gt; 
-&lt;p&gt;Curabitur commodo hendrerit cursus. Nulla eu diam vitae elit laoreet rutrum eu sit amet ligula. Sed enim purus, consequat non odio ut, sagittis sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consectetur orci diam, non gravida dolor consectetur ut. Aliquam pharetra velit nec odio tristique, non aliquet risus egestas.&lt;/p&gt; 
-&lt;p&gt;&lt;img src="portrait.png/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;Nulla elit nisl, posuere sit amet justo a, vestibulum molestie ex. Nunc volutpat orci diam, in molestie turpis volutpat nec. 
-&lt;img align="right" src="portrait.png/{_document}/customgalleryprocessor:portrait" /&gt;Aliquam pellentesque justo sed varius aliquam. Curabitur iaculis laoreet feugiat. Proin ornare venenatis arcu. Suspendisse aliquet tellus nec arcu dignissim, a vehicula eros placerat. Maecenas accumsan, ante eu commodo tincidunt, urna ligula rhoncus libero, vel blandit orci magna id dolor.&lt;/p&gt; 
-&lt;p&gt;&lt;img align="left" src="portrait.png/{_document}/customgalleryprocessor:square" /&gt;Maecenas interdum, ex eget tincidunt pellentesque, nisi tellus egestas leo, a hendrerit tortor lectus et metus. Mauris sit amet neque ut ligula bibendum auctor quis et nisl. In lacinia mattis nisi at imperdiet. Suspendisse varius sodales nunc tempus placerat. Praesent ac nibh odio. In interdum cursus nisl, ac pellentesque ante dapibus in. Vestibulum suscipit risus id tristique sagittis. Maecenas dignissim dui odio, sit amet imperdiet nulla euismod at. Ut a enim ac risus blandit malesuada. Sed sit amet dignissim lorem, in finibus lacus. In hac habitasse platea dictumst. Duis non bibendum ligula, et consequat tellus.&lt;/p&gt; 
-&lt;p&gt;Nulla ac nunc sit amet massa placerat consequat. Sed faucibus ante sapien, id commodo massa euismod vitae. Quisque tincidunt lectus id ipsum aliquam, sit amet tincidunt nisi auctor. Donec tempus erat nec ex cursus consectetur at non dolor. Praesent a sapien est. Fusce vestibulum erat a arcu aliquet suscipit. Praesent faucibus ante velit, sed blandit justo bibendum at. Sed vel dignissim eros. Curabitur quis risus eget felis finibus sodales nec sed nisl. Quisque facilisis, massa id facilisis lacinia, risus nunc tristique tellus, quis dapibus libero eros vel mauris. In maximus blandit est eget maximus.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
-            <sv:node sv:name="landscape.jpg_1">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>834c44fc-ef64-4214-b4cf-f8f5b3b8c48e</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
-            <sv:node sv:name="portrait.png">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>a2e752cc-be24-4f0b-8c8f-b9b81796e77d</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
           </sv:node>
           <sv:node sv:name="customgalleryprocessor:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -915,7 +915,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
-            <sv:value/>
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
             <sv:value/>
@@ -924,7 +924,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
-            <sv:value>Custom Hippo Behavior</sv:value>
+            <sv:value>Custom Hippo Behavior Landscape</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -945,7 +945,7 @@
             <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:51.924+01:00</sv:value>
+            <sv:value>2014-10-31T15:16:06.849+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -966,41 +966,10 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sagittis risus, eget pretium velit egestas et. 
-&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:portrait" /&gt;Curabitur accumsan commodo lorem, eget sollicitudin lectus eleifend eu. Nullam in odio in lacus commodo mollis a ut 
-&lt;img align="left" src="landscape.jpg/{_document}/customgalleryprocessor:square" /&gt;arcu. Aenean at dolor et ante congue fermentum sit amet a nunc. Morbi ultricies, libero vel lacinia feugiat, lectus quam volutpat felis, id tempor urna elit sit amet augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non erat ut magna tempor cursus ac sit amet libero. Vivamus a urna dolor. Vestibulum sagittis velit justo, non bibendum lectus imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula id velit auctor placerat vel quis lorem. Ut pulvinar ligula nec ligula iaculis vulputate. Vivamus suscipit quam non tortor consequat hendrerit. Aliquam magna nulla, tempor in porttitor et, tempus et eros.&lt;/p&gt; 
-&lt;p&gt;Curabitur commodo hendrerit cursus. Nulla eu diam vitae elit laoreet rutrum eu sit amet ligula. Sed enim purus, consequat non odio ut, sagittis sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consectetur orci diam, non gravida dolor consectetur ut. Aliquam pharetra velit nec odio tristique, non aliquet risus egestas.&lt;/p&gt; 
-&lt;p&gt;Nulla elit nisl, posuere sit amet justo a, vestibulum molestie ex. Nunc volutpat orci diam, in molestie turpis volutpat nec. Aliquam pellentesque justo sed varius aliquam. Curabitur iaculis laoreet feugiat. Proin ornare venenatis arcu. Suspendisse aliquet tellus nec arcu dignissim, a vehicula eros placerat. Maecenas accumsan, ante eu commodo tincidunt, urna ligula rhoncus libero, vel blandit orci magna id dolor.&lt;/p&gt; 
-&lt;p&gt;Maecenas interdum, ex eget tincidunt pellentesque, nisi tellus egestas leo, a hendrerit tortor lectus et metus. Mauris sit amet neque ut ligula bibendum auctor quis et nisl. In lacinia mattis nisi at imperdiet. Suspendisse varius sodales nunc tempus placerat. Praesent ac nibh odio. In interdum cursus nisl, ac pellentesque ante dapibus in. Vestibulum suscipit risus id tristique sagittis. Maecenas dignissim dui odio, sit amet imperdiet nulla euismod at. Ut a enim ac risus blandit malesuada. Sed sit amet dignissim lorem, in finibus lacus. In hac habitasse platea dictumst. Duis non bibendum ligula, et consequat tellus.&lt;/p&gt; 
-&lt;p&gt;&lt;img src="portrait.png/{_document}/customgalleryprocessor:portrait" /&gt;&lt;/p&gt; 
-&lt;p&gt;Nulla ac nunc sit amet massa placerat consequat. Sed faucibus ante sapien, id commodo massa euismod vitae. Quisque 
-&lt;img src="portrait.png/{_document}/customgalleryprocessor:landscape" /&gt;tincidunt lectus id ipsum aliquam, sit amet tincidunt nisi auctor. Donec tempus erat nec ex cursus consectetur at non dolor. Praesent a sapien est. Fusce vestibulum erat a arcu aliquet suscipit. Praesent faucibus ante velit, sed blandit justo bibendum at. Sed vel dignissim eros. Curabitur quis risus eget felis finibus sodales nec sed nisl. 
-&lt;img src="portrait.png/{_document}/customgalleryprocessor:square" /&gt;Quisque facilisis, massa id facilisis lacinia, risus nunc tristique tellus, quis dapibus libero eros vel mauris. In maximus blandit est eget maximus.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
-            <sv:node sv:name="landscape.jpg">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>d19a5c9b-9b8e-4525-9f57-12cc234bad33</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
-            <sv:node sv:name="portrait.png">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>a4bbd411-e30b-4923-aba6-759b02b595b9</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
           </sv:node>
           <sv:node sv:name="customgalleryprocessor:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1045,7 +1014,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
-            <sv:value/>
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
             <sv:value/>
@@ -1054,7 +1023,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
-            <sv:value>Custom Hippo Behavior</sv:value>
+            <sv:value>Custom Hippo Behavior Landscape</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -1074,7 +1043,7 @@
             <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:46.420+01:00</sv:value>
+            <sv:value>2014-10-31T15:14:41.875+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1095,41 +1064,10 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sagittis risus, eget pretium velit egestas et. 
-&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:portrait" /&gt;Curabitur accumsan commodo lorem, eget sollicitudin lectus eleifend eu. Nullam in odio in lacus commodo mollis a ut 
-&lt;img align="left" src="landscape.jpg/{_document}/customgalleryprocessor:square" /&gt;arcu. Aenean at dolor et ante congue fermentum sit amet a nunc. Morbi ultricies, libero vel lacinia feugiat, lectus quam volutpat felis, id tempor urna elit sit amet augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non erat ut magna tempor cursus ac sit amet libero. Vivamus a urna dolor. Vestibulum sagittis velit justo, non bibendum lectus imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula id velit auctor placerat vel quis lorem. Ut pulvinar ligula nec ligula iaculis vulputate. Vivamus suscipit quam non tortor consequat hendrerit. Aliquam magna nulla, tempor in porttitor et, tempus et eros.&lt;/p&gt; 
-&lt;p&gt;Curabitur commodo hendrerit cursus. Nulla eu diam vitae elit laoreet rutrum eu sit amet ligula. Sed enim purus, consequat non odio ut, sagittis sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consectetur orci diam, non gravida dolor consectetur ut. Aliquam pharetra velit nec odio tristique, non aliquet risus egestas.&lt;/p&gt; 
-&lt;p&gt;Nulla elit nisl, posuere sit amet justo a, vestibulum molestie ex. Nunc volutpat orci diam, in molestie turpis volutpat nec. Aliquam pellentesque justo sed varius aliquam. Curabitur iaculis laoreet feugiat. Proin ornare venenatis arcu. Suspendisse aliquet tellus nec arcu dignissim, a vehicula eros placerat. Maecenas accumsan, ante eu commodo tincidunt, urna ligula rhoncus libero, vel blandit orci magna id dolor.&lt;/p&gt; 
-&lt;p&gt;Maecenas interdum, ex eget tincidunt pellentesque, nisi tellus egestas leo, a hendrerit tortor lectus et metus. Mauris sit amet neque ut ligula bibendum auctor quis et nisl. In lacinia mattis nisi at imperdiet. Suspendisse varius sodales nunc tempus placerat. Praesent ac nibh odio. In interdum cursus nisl, ac pellentesque ante dapibus in. Vestibulum suscipit risus id tristique sagittis. Maecenas dignissim dui odio, sit amet imperdiet nulla euismod at. Ut a enim ac risus blandit malesuada. Sed sit amet dignissim lorem, in finibus lacus. In hac habitasse platea dictumst. Duis non bibendum ligula, et consequat tellus.&lt;/p&gt; 
-&lt;p&gt;&lt;img src="portrait.png/{_document}/customgalleryprocessor:portrait" /&gt;&lt;/p&gt; 
-&lt;p&gt;Nulla ac nunc sit amet massa placerat consequat. Sed faucibus ante sapien, id commodo massa euismod vitae. Quisque 
-&lt;img src="portrait.png/{_document}/customgalleryprocessor:landscape" /&gt;tincidunt lectus id ipsum aliquam, sit amet tincidunt nisi auctor. Donec tempus erat nec ex cursus consectetur at non dolor. Praesent a sapien est. Fusce vestibulum erat a arcu aliquet suscipit. Praesent faucibus ante velit, sed blandit justo bibendum at. Sed vel dignissim eros. Curabitur quis risus eget felis finibus sodales nec sed nisl. 
-&lt;img src="portrait.png/{_document}/customgalleryprocessor:square" /&gt;Quisque facilisis, massa id facilisis lacinia, risus nunc tristique tellus, quis dapibus libero eros vel mauris. In maximus blandit est eget maximus.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
-            <sv:node sv:name="landscape.jpg">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>d19a5c9b-9b8e-4525-9f57-12cc234bad33</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
-            <sv:node sv:name="portrait.png">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>a4bbd411-e30b-4923-aba6-759b02b595b9</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
           </sv:node>
           <sv:node sv:name="customgalleryprocessor:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1163,7 +1101,7 @@
             <sv:value>news</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
-            <sv:value/>
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
             <sv:value/>
@@ -1172,7 +1110,7 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
-            <sv:value>Custom Hippo Behavior</sv:value>
+            <sv:value>Custom Hippo Behavior Landscape</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -1193,13 +1131,13 @@
             <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:51.924+01:00</sv:value>
+            <sv:value>2014-10-31T15:16:06.849+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-10-31T13:46:55.435+01:00</sv:value>
+            <sv:value>2014-10-31T15:16:09.359+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>48e46e5a-be19-49bd-a145-0b65f7ea70be</sv:value>
@@ -1217,41 +1155,10 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:landscape" /&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus sagittis risus, eget pretium velit egestas et. 
-&lt;img src="landscape.jpg/{_document}/customgalleryprocessor:portrait" /&gt;Curabitur accumsan commodo lorem, eget sollicitudin lectus eleifend eu. Nullam in odio in lacus commodo mollis a ut 
-&lt;img align="left" src="landscape.jpg/{_document}/customgalleryprocessor:square" /&gt;arcu. Aenean at dolor et ante congue fermentum sit amet a nunc. Morbi ultricies, libero vel lacinia feugiat, lectus quam volutpat felis, id tempor urna elit sit amet augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non erat ut magna tempor cursus ac sit amet libero. Vivamus a urna dolor. Vestibulum sagittis velit justo, non bibendum lectus imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet ligula id velit auctor placerat vel quis lorem. Ut pulvinar ligula nec ligula iaculis vulputate. Vivamus suscipit quam non tortor consequat hendrerit. Aliquam magna nulla, tempor in porttitor et, tempus et eros.&lt;/p&gt; 
-&lt;p&gt;Curabitur commodo hendrerit cursus. Nulla eu diam vitae elit laoreet rutrum eu sit amet ligula. Sed enim purus, consequat non odio ut, sagittis sollicitudin ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce consectetur orci diam, non gravida dolor consectetur ut. Aliquam pharetra velit nec odio tristique, non aliquet risus egestas.&lt;/p&gt; 
-&lt;p&gt;Nulla elit nisl, posuere sit amet justo a, vestibulum molestie ex. Nunc volutpat orci diam, in molestie turpis volutpat nec. Aliquam pellentesque justo sed varius aliquam. Curabitur iaculis laoreet feugiat. Proin ornare venenatis arcu. Suspendisse aliquet tellus nec arcu dignissim, a vehicula eros placerat. Maecenas accumsan, ante eu commodo tincidunt, urna ligula rhoncus libero, vel blandit orci magna id dolor.&lt;/p&gt; 
-&lt;p&gt;Maecenas interdum, ex eget tincidunt pellentesque, nisi tellus egestas leo, a hendrerit tortor lectus et metus. Mauris sit amet neque ut ligula bibendum auctor quis et nisl. In lacinia mattis nisi at imperdiet. Suspendisse varius sodales nunc tempus placerat. Praesent ac nibh odio. In interdum cursus nisl, ac pellentesque ante dapibus in. Vestibulum suscipit risus id tristique sagittis. Maecenas dignissim dui odio, sit amet imperdiet nulla euismod at. Ut a enim ac risus blandit malesuada. Sed sit amet dignissim lorem, in finibus lacus. In hac habitasse platea dictumst. Duis non bibendum ligula, et consequat tellus.&lt;/p&gt; 
-&lt;p&gt;&lt;img src="portrait.png/{_document}/customgalleryprocessor:portrait" /&gt;&lt;/p&gt; 
-&lt;p&gt;Nulla ac nunc sit amet massa placerat consequat. Sed faucibus ante sapien, id commodo massa euismod vitae. Quisque 
-&lt;img src="portrait.png/{_document}/customgalleryprocessor:landscape" /&gt;tincidunt lectus id ipsum aliquam, sit amet tincidunt nisi auctor. Donec tempus erat nec ex cursus consectetur at non dolor. Praesent a sapien est. Fusce vestibulum erat a arcu aliquet suscipit. Praesent faucibus ante velit, sed blandit justo bibendum at. Sed vel dignissim eros. Curabitur quis risus eget felis finibus sodales nec sed nisl. 
-&lt;img src="portrait.png/{_document}/customgalleryprocessor:square" /&gt;Quisque facilisis, massa id facilisis lacinia, risus nunc tristique tellus, quis dapibus libero eros vel mauris. In maximus blandit est eget maximus.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
-            <sv:node sv:name="landscape.jpg">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>d19a5c9b-9b8e-4525-9f57-12cc234bad33</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
-            <sv:node sv:name="portrait.png">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hippo:facetselect</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:docbase" sv:type="String">
-                <sv:value>a4bbd411-e30b-4923-aba6-759b02b595b9</sv:value>
-              </sv:property>
-              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-            </sv:node>
           </sv:node>
           <sv:node sv:name="customgalleryprocessor:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1259,6 +1166,586 @@
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>d19a5c9b-9b8e-4525-9f57-12cc234bad33</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="default-hippo-portrait">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2e53fe34-5ebc-4ad5-a5c2-d5b8b67dabf5</sv:value>
+        </sv:property>
+        <sv:node sv:name="default-hippo-portrait">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6e763238-6c36-47e8-9f88-101ddd70598c</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:56:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>Default Hippo Behavior Landscape</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/default-hippo-portrait/default-hippo-portrait[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:46.667+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>7780886e-4278-41bf-a36a-bbd3c5732905</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a2e752cc-be24-4f0b-8c8f-b9b81796e77d</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Default Hippo Portrait</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="default-hippo-portrait">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>60638b28-2d02-4190-8dc0-a19089469663</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:56:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>Default Hippo Behavior Landscape</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/default-hippo-portrait/default-hippo-portrait[3]</sv:value>
+            <sv:value>news/2014/10/default-hippo-portrait/default-hippo-portrait</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:22.758+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>7780886e-4278-41bf-a36a-bbd3c5732905</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a2e752cc-be24-4f0b-8c8f-b9b81796e77d</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="default-hippo-portrait">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0a66991c-7222-42dd-a975-e4d63dfab8fa</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:56:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>Default Hippo Behavior Landscape</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/default-hippo-portrait/default-hippo-portrait</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:46.667+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:48.685+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>7780886e-4278-41bf-a36a-bbd3c5732905</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a2e752cc-be24-4f0b-8c8f-b9b81796e77d</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="custom-portrait">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>59cf7229-dc3a-42f6-a105-a254769efbb0</sv:value>
+        </sv:property>
+        <sv:node sv:name="custom-portrait">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1c8a3e9b-c263-4538-a4bc-7efee9c13e6c</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:56:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>Custom Hippo Behavior Landscape</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/custom-portrait/custom-portrait[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:57.360+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3ad28b67-ed49-4089-82c2-0783b7b79083</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4bbd411-e30b-4923-aba6-759b02b595b9</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Custom Portrait</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="custom-portrait">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4b33e94b-60d6-4f58-ace7-b1a8135d101f</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:56:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>Custom Hippo Behavior Landscape</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/custom-portrait/custom-portrait</sv:value>
+            <sv:value>news/2014/10/custom-portrait/custom-portrait[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:32.659+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3ad28b67-ed49-4089-82c2-0783b7b79083</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4bbd411-e30b-4923-aba6-759b02b595b9</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="custom-portrait">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>customgalleryprocessor:newsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b06adede-cd73-4d37-9ae2-3986798c65dd</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:author" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:date" sv:type="Date">
+            <sv:value>2014-10-31T11:56:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:documenttype" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:introduction" sv:type="String">
+            <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:location" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:source" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="customgalleryprocessor:title" sv:type="String">
+            <sv:value>Custom Hippo Behavior Landscape</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/10/custom-portrait/custom-portrait</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-10-31T11:54:12.227+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:57.360+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-10-31T15:16:59.068+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3ad28b67-ed49-4089-82c2-0783b7b79083</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt; 
+&lt;p style="text-align:left"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="customgalleryprocessor:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4bbd411-e30b-4923-aba6-759b02b595b9</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
