@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="cms" h:merge="combine">
   <sv:node sv:name="cms-services" h:merge="combine">
     <sv:node sv:name="galleryProcessorService" h:merge="combine">
+      <sv:property sv:name="plugin.class" sv:type="String" h:merge="override">
+        <sv:value>org.example.frontend.gallery.imageutil.ScalingCroppingGalleryProcessorPlugin</sv:value>
+      </sv:property>
       <sv:node sv:name="customgalleryprocessor:landscape">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:pluginconfig</sv:value>

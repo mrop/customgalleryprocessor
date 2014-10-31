@@ -28,6 +28,7 @@
         <fmt:formatDate value="${item.date.time}" type="both" dateStyle="medium" timeStyle="short"/>
       </p>
     </c:if>
+
     <p><c:out value="${item.introduction}"/></p>
   </article>
 </c:forEach>
