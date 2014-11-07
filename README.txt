@@ -9,6 +9,7 @@ From the project root folder, execute:
 
 Access the Hippo Essentials at http://localhost:8080/essentials.
 After your project is set up, access the CMS at http://localhost:8080/cms and the site at http://localhost:8080/site.
+Access the presentation at http://localhost:8080/demo.
 Logs are located in target/tomcat7x/logs
 
 Building distribution
