@@ -1,6 +1,8 @@
 Introduction
 ============
 
+This project contains a Hippo ( www.onehippo.org) project. 
+
 This project contains an alternative way to scale images. The default functionality is described on http://www.onehippo.org/library/concepts/images-and-assets/create-a-custom-image-set.html. The alternative way the images are scaled in this project takes into account the aspect ratios of the original and the bounding box. 
 
 The alternative way is best shown by checking out the project and have a look at the examples.
