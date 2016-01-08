@@ -9,7 +9,7 @@ The alternative way is best shown by checking out the project and have a look at
 
 However the formal description is as follows ( with courtesy to Owen Knoote (o.knoote@onehippo.com )).
 
-Imagine Scaling an image, I_original for a boundingbox B to an scaled image, I_scaled.
+Imagine Scaling an image, I_original for a boundingbox B to a scaled image, I_scaled.
 
 If the aspect ratio of I_original is smaller that the aspect ration of B, the image is scale so that the width of B equals the with of I_scaled. The image will be centered vertically and the lower and upper part will be cut off.
 
