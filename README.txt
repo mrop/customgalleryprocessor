@@ -11,7 +11,7 @@ However the formal description is as follows ( with courtesy to Owen Knoote (o.k
 
 Imagine Scaling an image, I_original for a boundingbox B to a scaled image, I_scaled.
 
-If the aspect ratio of I_original is smaller that the aspect ration of B, the image is scale so that the width of B equals the with of I_scaled. The image will be centered vertically and the lower and upper part will be cut off.
+If the aspect ratio of I_original is smaller than the aspect ration of B, the image is scale so that the width of B equals the with of I_scaled. The image will be centered vertically and the lower and upper part will be cut off.
 
 If the aspect ratios of I_original and B are equal, the image will only be scaled.
 
