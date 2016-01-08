@@ -1,3 +1,22 @@
+Introduction
+============
+
+This project contains an alternative way to scale images. The default functionality is described on http://www.onehippo.org/library/concepts/images-and-assets/create-a-custom-image-set.html. The alternative way the images are scaled in this project takes into account the aspect ratios of the original and the bounding box. 
+
+The alternative way is best shown by checking out the project and have a look at the examples.
+
+However the formal description is as follows ( with curtosy to Owen Knoote (o.knoote@onehippo.com )).
+
+Imagine Scaling an image, I_original for a boundingbox B to an scaled image, I_scaled.
+
+If the aspect ratio of I_original is smaller that the aspect ration of B, the image is scale so that the width of B equals the with of I_scaled. The image will be centered vertically and the lower and upper part will be cut off.
+
+If the aspect ratios of I_original and B are equal, the image will only be scaled.
+
+If the aspect ration of I_original is greater then B, the image will be scaled so that the height of B equals the height of I_scaled. The image will be centered vertically and the left and right part will be cut off.
+
+
+
 Running locally
 ===============
 
