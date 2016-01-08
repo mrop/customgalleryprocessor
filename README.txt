@@ -7,7 +7,7 @@ This project contains an alternative way to scale images. The default functional
 
 The alternative way is best shown by checking out the project and have a look at the examples.
 
-However the formal description is as follows ( with curtosy to Owen Knoote (o.knoote@onehippo.com )).
+However the formal description is as follows ( with courtesy to Owen Knoote (o.knoote@onehippo.com )).
 
 Imagine Scaling an image, I_original for a boundingbox B to an scaled image, I_scaled.
 
